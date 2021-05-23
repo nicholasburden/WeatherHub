@@ -63,7 +63,7 @@ function nextDate(date){
 
 function updateData(){
     $.ajax({
-        url: 'apirequest.php',
+        url: 'data',
         type: 'GET',
         dataType: 'json',
     })
